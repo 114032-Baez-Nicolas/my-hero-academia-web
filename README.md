@@ -7,8 +7,8 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ## 🚀 Tecnologías utilizadas
 
-- **HTML5** y **SCSS** (estructura modular dividida por `components`, `layouts`, y `utils`)
-- **Bootstrap 5.3.6** para diseño responsivo
+- **HTML** y **SCSS** (estructura modular dividida por `components`, `layouts`, y `utils`)
+- **Bootstrap 5** para diseño responsivo
 - **Animate.css** para animaciones suaves al cargar contenido
 - **SweetAlert2** para futuros mensajes y alertas interactivas
 - Estructura basada en BEM y buenas prácticas de organización de carpetas
