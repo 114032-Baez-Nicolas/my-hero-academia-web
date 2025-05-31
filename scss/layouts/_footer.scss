@@ -1,0 +1,16 @@
+.layout__footer{
+    grid-area: footer; 
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    color: $gris-medio;
+    @include flex-columm-center;
+
+    @include mobile {
+        font-size: 0.8rem;
+    }
+
+    @include tablet {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,14 @@
+.mha__carousel {
+    margin: auto;
+    @include carousel;
+
+    @include tablet {
+        width: 90%;
+        height: auto;
+    }
+
+    @include mobile {
+        width: 100%;
+        height: auto;
+    }
+}

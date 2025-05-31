@@ -1,0 +1,18 @@
+.layout__header {
+    grid-area: header;
+    text-align: center;
+    padding: 1rem;
+    @include postition-sticky;
+    @include flex-columm-center;
+
+    .navbar{
+        @include navbar;
+    }
+
+    .navbar__logo {
+        width: 80px;
+        height: auto;
+        margin-right: 1rem;
+        @include transicion-navbar;
+    }
+}

@@ -1,0 +1,28 @@
+.don__card {
+    @include flex-wrap-center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    gap: 50px;
+    background-color: $gris-claro;
+    color: $bg-azul-oscuro-UA;
+    @include transicion-hover-gif;
+
+    .gif-container {
+        width: 100%;
+        max-width: 400px;
+        height: 225px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: $sombra-suave;
+        }
+    }
+}

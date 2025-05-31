@@ -1,0 +1,91 @@
+// -------------------- BACKGROUNDS PROFESIONALES --------------------
+
+$bg-claro-suave: #f7f9fc;
+$bg-azul-suave: #e3edf7;
+$bg-azul-oscuro: #112d4e;
+$bg-crema: #fff9f0;
+$bg-verde-suave: #e6f4ea;
+$bg-gris-suave: #f1f1f1;
+$bg-neutro: #f5f5f5;
+$bg-dark-soft: #212529;
+$bg-gradient-azul: linear-gradient(135deg, #396390, #001f54);
+
+// Especial para my hero academia
+$bg-azul-oscuro-UA: #1d3557;
+$bg-negro-allforone: #0a0a0a;
+
+// Navbar de my hero academia
+$bg-color-noche: #0b2545;
+$bg-color-amarrilloUA: #fcbf49;
+$bg-color-suave: #1d3557;;
+
+// -------------------- COLORES BASE --------------------
+
+$blanco-puro: #ffffff;
+$blanco-suave: #f9f9f9;
+$gris-claro: #e5e5e5;
+$gris-medio: #cccccc;
+$gris-oscuro: #333333;
+$negro: #000000;
+
+// Especial para my hero academia
+$blanco-hielo-shoto: #f1faee;
+
+// -------------------- COLORES DE TEXTO --------------------
+
+$texto-principal: #2c2c2c;
+$texto-secundario: #6c757d;
+$texto-invertido: #ffffff;
+
+// -------------------- PALETA PRINCIPAL --------------------
+
+$azul-primario: #396390;
+$azul-navy: #023e8a;
+$azul-oscuro: #001f54;
+
+$rojo-error: #dc3545;
+$verde-exito: #198754;
+$amarillo-alerta: #ffc107;
+
+$naranja-accion: #fd7e14;
+$marron-hover: #7b290c;
+
+$fondo-claro: #f0f2f5;
+$fondo-oscuro: #1a1a1a;
+
+// -------------------- SOMBRAS --------------------
+
+$sombra-suave: rgba(0, 0, 0, 0.1);
+$sombra-media: rgba(0, 0, 0, 0.2);
+$sombra-fuerte: rgba(0, 0, 0, 0.3);
+
+// Especial para my hero academia
+$sombra-shoto: 0 4px 12px rgba(241, 250, 238, 0.2);
+$sombra-deku: 0 6px 16px rgba(111, 255, 190, 0.25);
+$sombra-bakugo: 0 6px 12px rgba(255, 100, 100, 0.3);
+
+// -------------------- TIPOGRAFÍA --------------------
+
+$fuente-principal: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+// -------------------- COLORES DINÁMICOS --------------------
+
+$colores: (
+    azul-primario: $azul-primario,
+    azul-navy: $azul-navy,
+    rojo-error: $rojo-error,
+    verde-exito: $verde-exito,
+    amarillo-alerta: $amarillo-alerta,
+    naranja-accion: $naranja-accion,
+    marron-hover: $marron-hover
+);
+
+@each $nombre, $valor in $colores {
+    .bg-#{$nombre} {
+        background-color: $valor;
+    }
+
+    .text-#{$nombre} {
+        color: $valor;
+    }
+}
