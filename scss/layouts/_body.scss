@@ -1,0 +1,29 @@
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    font-family: $fuente-principal;
+    background-color: $bg-azul-oscuro-UA;
+    color: $gris-claro;
+
+    @include mobile {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+
+    @include tablet {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer";
+    }
+}

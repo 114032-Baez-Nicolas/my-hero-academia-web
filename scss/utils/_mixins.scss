@@ -1,0 +1,75 @@
+// Mixins for general styles
+@mixin flex-columm-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-wrap-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+// Mixins for Navbar
+@mixin postition-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+@mixin navbar {
+    top: 0;
+    z-index: 1000;
+    background-color: $bg-color-amarrilloUA;
+    border-bottom: 1px solid $blanco-hielo-shoto;
+    padding: 1rem;
+}
+
+// Mixins for Carousel
+@mixin carousel {
+    width: 100%;
+    max-width: 1200px;
+    max-width: 850px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+// Mixins for Cards
+@mixin card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: $bg-azul-oscuro-UA;
+    box-shadow: 0 4px 12px $sombra-deku;
+    font-family: $fuente-principal;
+    @include transicion-card;
+    @include hover-card;
+}
+
+@mixin card-img {
+    object-fit: cover;
+    object-position: center;
+    @include transicion-img;
+}
+
+// Si se llegará a usar el body en las cards
+@mixin card-body {
+    background-color: $blanco-puro;
+    padding: 1rem;
+    text-align: center;
+
+    p {
+        color: $texto-secundario;
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+}

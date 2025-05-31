@@ -1,0 +1,52 @@
+// -------------------- TRANSICIONES --------------------
+
+@mixin transicion-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@mixin transicion-img {
+    transition: transform 0.3s ease;
+}
+
+@mixin transicion-navbar {
+    transition: transform 0.3s ease;
+    @include hover-navbarLogo;
+}
+
+@mixin transicion-hover-img {
+    transition: transform 0.3s ease;
+    @include hover-img;
+}
+
+@mixin transicion-hover-gif {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    @include hover-gif;
+}
+
+// -------------------- HOVERS --------------------
+
+@mixin hover-card {
+    &:hover {
+        transform: translateY(-6px) scale(1.02);
+        box-shadow: 0 8px 16px $sombra-media;
+    }
+}
+
+@mixin hover-navbarLogo {
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+@mixin hover-img {
+    &:hover {
+        transform: scale(1.01);
+    }
+}
+
+@mixin hover-gif {
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: $sombra-shoto;
+    }
+}

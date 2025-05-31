@@ -1,0 +1,337 @@
+.bg-azul-primario {
+  background-color: #396390;
+}
+
+.text-azul-primario {
+  color: #396390;
+}
+
+.bg-azul-navy {
+  background-color: #023e8a;
+}
+
+.text-azul-navy {
+  color: #023e8a;
+}
+
+.bg-rojo-error {
+  background-color: #dc3545;
+}
+
+.text-rojo-error {
+  color: #dc3545;
+}
+
+.bg-verde-exito {
+  background-color: #198754;
+}
+
+.text-verde-exito {
+  color: #198754;
+}
+
+.bg-amarillo-alerta {
+  background-color: #ffc107;
+}
+
+.text-amarillo-alerta {
+  color: #ffc107;
+}
+
+.bg-naranja-accion {
+  background-color: #fd7e14;
+}
+
+.text-naranja-accion {
+  color: #fd7e14;
+}
+
+.bg-marron-hover {
+  background-color: #7b290c;
+}
+
+.text-marron-hover {
+  color: #7b290c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  word-break: break-word;
+}
+
+.layout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #1d3557;
+  color: #e5e5e5;
+}
+@media (max-width: 576px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
+  }
+}
+
+.layout__header {
+  grid-area: header;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layout__header .navbar {
+  top: 0;
+  z-index: 1000;
+  background-color: #fcbf49;
+  border-bottom: 1px solid #f1faee;
+  padding: 1rem;
+}
+.layout__header .navbar__logo {
+  width: 80px;
+  height: auto;
+  margin-right: 1rem;
+  transition: transform 0.3s ease;
+}
+.layout__header .navbar__logo:hover {
+  transform: scale(1.05);
+}
+
+.layout__main {
+  grid-area: main;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .layout__main {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .layout__main {
+    font-size: 1rem;
+  }
+}
+
+.layout__footer {
+  grid-area: footer;
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1rem;
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .layout__footer {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .layout__footer {
+    font-size: 0.9rem;
+  }
+}
+
+.mha__carousel {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  max-width: 850px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .mha__carousel {
+    width: 90%;
+    height: auto;
+  }
+}
+@media (max-width: 576px) {
+  .mha__carousel {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cards__section1,
+.cards__section2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.cards__section1 .card,
+.cards__section2 .card {
+  width: 18rem;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #1d3557;
+  box-shadow: 0 4px 12px 0 6px 16px rgba(111, 255, 190, 0.25);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cards__section1 .card:hover,
+.cards__section2 .card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.cards__section1 .card-img-top,
+.cards__section2 .card-img-top {
+  height: 15rem;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+.cards__section1 .card-body,
+.cards__section2 .card-body {
+  background-color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
+.cards__section1 .card-body p,
+.cards__section2 .card-body p {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.chacter__card {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  gap: 1rem;
+  color: #0a0a0a;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+.chacter__card:hover {
+  transform: scale(1.01);
+}
+.chacter__card .img-card {
+  width: 160px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.chacter__card .chacter__text {
+  text-align: left;
+  margin-top: 1rem;
+  flex: 1;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .chacter__card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .chacter__card .img-card {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+  }
+  .chacter__card .chacter__text {
+    margin-top: 1rem;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .chacter__card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .chacter__card .img-card {
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+  }
+  .chacter__card .chacter__text {
+    margin-top: 1rem;
+    padding: 10px;
+  }
+}
+.chacter__card .personaje__rol {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+.chacter__card .personaje__rol.heroe {
+  background-color: #e6f4ea;
+  color: #198754;
+}
+.chacter__card .personaje__rol.villano {
+  background-color: #ffe3e3;
+  color: #dc3545;
+}
+
+.don__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  gap: 50px;
+  background-color: #e5e5e5;
+  color: #1d3557;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.don__card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(241, 250, 238, 0.2);
+}
+.don__card .gif-container {
+  width: 100%;
+  max-width: 400px;
+  height: 225px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.don__card .gif-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=style.css.map */
