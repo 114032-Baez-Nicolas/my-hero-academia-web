@@ -1,4 +1,4 @@
-# 🦸‍♂️ My Hero Academia — Web Interactiva
+# My Hero Academia — Web Interactiva
 
 ¡Bienvenido a mi proyecto web inspirado en el universo de **My Hero Academia**!  
 En esta app podés explorar héroes, villanos y sus dones, con tarjetas interactivas, animaciones y diseño responsivo.
@@ -28,7 +28,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 **Nicolás Báez**  
 💻 Proyecto para práctica y portfolio personal  
-🔗 [([GitHub](https://github.com/114032-Baez-Nicolas))]
+🔗 [Mi GitHub](https://github.com/114032-Baez-Nicolas)
 
 ---
 
