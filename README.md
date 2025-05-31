@@ -28,7 +28,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 **Nicolás Báez**  
 💻 Proyecto para práctica y portfolio personal  
-🔗 [([GitHub](https://github.com/114032-Baez-Nicolas)]
+🔗 [([GitHub](https://github.com/114032-Baez-Nicolas))]
 
 ---
 
