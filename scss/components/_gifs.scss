@@ -1,28 +1,29 @@
-.don__card {
-    @include flex-wrap-center;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
-    gap: 50px;
+.gif-container {
+    width: 100%;
+    max-width: 400px;
+    height: 225px;
+    min-height: 225px;
     background-color: $gris-claro;
-    color: $bg-azul-oscuro-UA;
-    @include transicion-hover-gif;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    .gif-container {
+    img {
         width: 100%;
-        max-width: 400px;
-        height: 225px;
-        position: relative;
-        overflow: hidden;
+        height: 100%;
+        object-fit: cover;
         border-radius: 10px;
+        box-shadow: $sombra-suave;
+        display: block;
 
-        img {
-            width: 100%;
+        &::before {
+            content: '';
+            display: block;
             height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: $sombra-suave;
+            width: 100%;
         }
     }
 }
