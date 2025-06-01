@@ -283,7 +283,36 @@ html {
     padding: 10px;
   }
 }
-.chacter__card .personaje__rol {
+
+.gif-container {
+  width: 100%;
+  max-width: 400px;
+  height: 225px;
+  min-height: 225px;
+  background-color: #e5e5e5;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gif-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  display: block;
+}
+.gif-container img::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.roles {
   font-size: 0.8rem;
   font-weight: 600;
   padding: 0.2rem 0.6rem;
@@ -291,47 +320,17 @@ html {
   border-radius: 6px;
   text-transform: uppercase;
 }
-.chacter__card .personaje__rol.heroe {
+.roles.heroe {
   background-color: #e6f4ea;
   color: #198754;
 }
-.chacter__card .personaje__rol.villano {
+.roles.villano {
   background-color: #ffe3e3;
   color: #dc3545;
 }
-
-.don__card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  gap: 50px;
-  background-color: #e5e5e5;
-  color: #1d3557;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.don__card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(241, 250, 238, 0.2);
-}
-.don__card .gif-container {
-  width: 100%;
-  max-width: 400px;
-  height: 225px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-.don__card .gif-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1);
+.roles.opening {
+  background-color: #ffe3e3;
+  color: #186890;
 }
 
 /*# sourceMappingURL=style.css.map */

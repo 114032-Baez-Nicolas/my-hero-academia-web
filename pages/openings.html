@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHA — Momentos</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animate CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+</head>
+
+<body class="layout">
+
+    <!-- HEADER con nav bootstrap -->
+    <header class="layout__header">
+        <nav class="navbar navbar-expand-lg shadow px-3 rounded sticky-top">
+            <div class="container-fluid">
+                <img src="../assets/logo/logomha3.png" alt="Logo Web" class="navbar__logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/personajes.html">Personajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/dones.html">Dones</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="../pages/openings.html">Openings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="layout__main animate__animated animate__fadeInUp">
+
+        <section class="personajes__text">
+            <h1 class="personajes__title">Openings de My Hero Academia</h1>
+            <p class="personajes__description">Top 6 de los openings mas queridos por los fans de My Hero Academia</p>
+        </section>
+
+        <!-- CARRUSEL DE VIDEOS -->
+        <div class="mha__carousel mt-4">
+            <div id="carouselVideos" class="carousel slide" data-bs-interval="false">
+                <div class="carousel-inner">
+
+                    <!-- Temporada 7 - Opening 1 -->
+                    <div class="carousel-item active">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/-YYXLo-tZsc"
+                                title="Opening Temporada 7"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Temporada 6 - Opening 2 -->
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/JFDFFoBClLY"
+                                title="Opening Temporada 6 - Parte 2"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Temporada 3 - Opening 1 -->
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/v1YojYU5nPQ"
+                                title="Opening Temporada 3"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Temporada 1 - Opening 1 -->
+                    <div class="carousel-item">
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/L1FdEBTJXus"
+                                title="Opening Temporada 1"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Botones de navegación -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideos"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselVideos"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Sección de openings -->
+        <section class="cards__section1 mt-5 d-flex justify-content-center flex-wrap gap-4">
+
+            <!-- Temporda 1 - Opening 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening1.gif" class="card-img-top" alt="Opening 1">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=L1FdEBTJXus"
+                            target="_blank">Opening 1</a></h3>
+                    <p class="card-text">El primer opening es pura energía. Suena a inicio de leyenda y marcó el
+                        comienzo del viaje de Deku.</p>
+                </div>
+            </div>
+
+            <!-- Temporda 2 - Opening 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening2.gif" class="card-img-top" alt="Opening 2">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=Q7w5IMyJ3pM"
+                            target="_blank">Opening 2</a></h3>
+                    <p class="card-text">“Peace Sign” es el favorito de muchos. Ritmo épico, emoción pura y escenas que
+                        valen oro.</p>
+                </div>
+            </div>
+
+            <!-- Temporada 2 - Opening 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening3.gif" class="card-img-top" alt="Opening 3">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=2ieT6Vh7jZE"
+                            target="_blank">Opening 3</a></h3>
+                    <p class="card-text">Con un tono más serio, este opening muestra el conflicto con Stain y la
+                        oscuridad creciendo.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="cards__section2 d-flex justify-content-center flex-wrap gap-4">
+
+            <!-- Temporda 3 - Opening 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening4.gif" class="card-img-top" alt="Opening 4">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=v1YojYU5nPQ"
+                            target="_blank">Opening 4</a></h3>
+                    <p class="card-text">Colorido, con acción brillante. Este opening captura la esencia heroica de la
+                        Clase 1-A.</p>
+                </div>
+            </div>
+
+            <!-- Temporada 5 - Opening 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening9.gif" class="card-img-top" alt="Opening Temporada 5 Parte 2">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=HG13QhJ5T10"
+                            target="_blank">Opening 9</a></h3>
+                    <p class="card-text">Intenso y visualmente poderoso. Refleja la tensión que crece entre héroes y
+                        villanos.</p>
+                </div>
+            </div>
+
+            <!-- Temporada 7 - Opening 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="../assets/openings/opening12.gif" class="card-img-top" alt="Opening Temporada 7">
+                <div class="card-body">
+                    <h3><a class="roles opening text-decoration-none" href="https://www.youtube.com/watch?v=-YYXLo-tZsc"
+                            target="_blank">Opening 12</a></h3>
+                    <p class="card-text">Uno de los más reciente y uno de los más épicos. Ritmo vibrante y animación de
+                        otro
+                        nivel.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="layout__footer">
+        <div class="container text-center">
+            <p>&copy; 2025 My Hero Academia. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script for Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script for Sweetalert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
