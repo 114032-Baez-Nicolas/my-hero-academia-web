@@ -20,6 +20,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Inicio** con carrusel y cards de personajes.
 - ✅ Página de **Personajes** con información detallada de héroes y villanos.
 - ✅ Página de **Dones** con GIFs ilustrativos para cada quirk.
+- ✅ Página de **Openings** con un carrusel de intros y sección visual con descripciones y links a youtube.
 - 🔧 **En desarrollo:** secciones adicionales, mejoras en navegación y búsqueda por rol.
 
 ---
@@ -34,4 +35,4 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ## 💥 ¡Plus Ultra!
 
-Este proyecto fue creado con mucha pasión por el mundo de MHA.  
+Este proyecto fue creado con muchísima pasión por el universo de My Hero Academia.  
