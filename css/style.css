@@ -284,27 +284,6 @@ html {
   }
 }
 
-.roles {
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.2rem 0.6rem;
-  margin-left: 0.5rem;
-  border-radius: 6px;
-  text-transform: uppercase;
-}
-.roles.heroe {
-  background-color: #e6f4ea;
-  color: #198754;
-}
-.roles.villano {
-  background-color: #ffe3e3;
-  color: #dc3545;
-}
-.roles.openings {
-  background-color: #ffe3e3;
-  color: #0087fd;
-}
-
 .gif-container {
   width: 100%;
   max-width: 400px;
@@ -331,6 +310,27 @@ html {
   display: block;
   height: 100%;
   width: 100%;
+}
+
+.roles {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  margin-left: 0.5rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+.roles.heroe {
+  background-color: #e6f4ea;
+  color: #198754;
+}
+.roles.villano {
+  background-color: #ffe3e3;
+  color: #dc3545;
+}
+.roles.opening {
+  background-color: #ffe3e3;
+  color: #186890;
 }
 
 /*# sourceMappingURL=style.css.map */
