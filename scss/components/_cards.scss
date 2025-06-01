@@ -74,23 +74,28 @@
             padding: 10px;
         }
     }
+}
 
-    .personaje__rol {
-        font-size: 0.8rem;
-        font-weight: 600;
-        padding: 0.2rem 0.6rem;
-        margin-left: 0.5rem;
-        border-radius: 6px;
-        text-transform: uppercase;
+.roles {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+    text-transform: uppercase;
 
-        &.heroe {
-            background-color: #e6f4ea;
-            color: #198754;
-        }
+    &.heroe {
+        background-color: #e6f4ea;
+        color: #198754;
+    }
 
-        &.villano {
-            background-color: #ffe3e3;
-            color: #dc3545;
-        }
+    &.villano {
+        background-color: #ffe3e3;
+        color: #dc3545;
+    }
+
+    &.openings {
+        background-color: #ffe3e3;
+        color: #0087fd;
     }
 }
