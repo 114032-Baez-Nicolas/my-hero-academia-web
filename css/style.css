@@ -341,9 +341,13 @@ html {
 
 .img__sucessos {
   width: 100%;
+  max-width: 350px;
   height: 200px;
   object-fit: cover;
+  object-position: center;
   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .img__sucessos:hover {
