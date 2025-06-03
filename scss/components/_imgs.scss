@@ -9,3 +9,18 @@
     margin: 0 auto;
     @include transicion-hover-gif;
 }
+
+.timeline .border-start {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    @include mobile {
+        min-height: 200px;
+    }
+
+    @include tablet {
+        min-height: 360px;
+    }
+}

@@ -355,4 +355,21 @@ html {
   box-shadow: 0 4px 12px rgba(241, 250, 238, 0.2);
 }
 
+.timeline .border-start {
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+@media (max-width: 576px) {
+  .timeline .border-start {
+    min-height: 200px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .timeline .border-start {
+    min-height: 360px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
