@@ -8,6 +8,21 @@
     display: block;
     margin: 0 auto;
     @include transicion-hover-gif;
+
+    @include mobile {
+        max-width: 250px;
+        height: 170px;
+    }
+
+    @include tablet {
+        max-width: 250px;
+        height: 225px;
+    }
+
+    @include desktop-md {
+        max-width: 250px;
+        height: 190px;
+    }
 }
 
 .timeline .border-start {
@@ -21,6 +36,10 @@
     }
 
     @include tablet {
-        min-height: 360px;
+        min-height: 355px;
+    }
+
+    @include desktop-md {
+        min-height: 355px;
     }
 }
