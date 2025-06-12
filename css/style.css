@@ -170,10 +170,19 @@ html {
   flex-wrap: wrap;
 }
 @media (max-width: 576px) {
-  .layout__footer .footer__redes {
-    flex-direction: column;
+  .layout__footer .footer__redes .footer_redes {
+    flex-direction: row;
     align-items: center;
-    gap: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  .layout__footer .footer__redes .footer_redes {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .layout__footer .footer__redes a {
