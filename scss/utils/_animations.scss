@@ -23,6 +23,10 @@
     @include hover-gif;
 }
 
+@mixin transicion-suave {
+    transition: all 0.3s ease;
+}
+
 @mixin hover-btn {
     transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 

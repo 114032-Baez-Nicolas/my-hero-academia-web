@@ -144,7 +144,6 @@ html {
 .layout__footer {
   grid-area: footer;
   text-align: center;
-  padding-top: 1.5rem;
   font-size: 1rem;
   color: #cccccc;
   display: flex;
@@ -161,6 +160,61 @@ html {
   .layout__footer {
     font-size: 0.9rem;
   }
+}
+.layout__footer .footer__redes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+@media (max-width: 576px) {
+  .layout__footer .footer__redes {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+.layout__footer .footer__redes a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #f1faee;
+  transition: all 0.3s ease;
+}
+.layout__footer .footer__redes a:hover {
+  transform: scale(1.1);
+  color: #ffc107;
+}
+.layout__footer .footer__redes img {
+  width: 22px;
+  height: 22px;
+}
+
+.footer__facebook {
+  background-image: url(../assets/icons/facebook.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__instagram {
+  background-image: url(../assets/icons/instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__twitter {
+  background-image: url(../assets/icons/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
 }
 
 .mha__carousel {
