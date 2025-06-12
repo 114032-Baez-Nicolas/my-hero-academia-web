@@ -59,8 +59,8 @@
 // -------------------- ICONOS DE REDES SOCIALES --------------------
 $redes: (
     facebook: "../assets/icons/facebook.png",
-    instagram: "../assets/icons/instagram.png",
-    twitter: "../assets/icons/twitter.png"
+    instagram: "../assets/icons/Instagram.png",
+    twitter: "../assets/icons/twitter.png" 
 );
 
 @each $red, $url in $redes {
