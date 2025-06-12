@@ -460,6 +460,10 @@ html {
 .ranking__section .ranking__item .progress-bar {
   background-color: #198754;
   transition: width 0.6s ease;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
 }
 .ranking__section .ranking__item .vote-btn {
   flex-shrink: 0;
@@ -524,14 +528,26 @@ html {
     white-space: normal;
     text-overflow: initial;
     overflow: visible;
+    margin-bottom: 0.5rem;
   }
   .ranking__section .ranking__item .progress {
-    width: 80%;
-    margin: 0.5rem auto;
+    width: 100%;
+    margin: 0.5rem 0;
     height: 18px;
+    min-height: 18px;
     border-radius: 10px;
     background-color: #cccccc;
     overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  .ranking__section .ranking__item .progress-bar {
+    background-color: #198754;
+    transition: width 0.6s ease;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .ranking__section .ranking__item .vote-btn {
     margin: 0.8rem auto 0 auto;
@@ -558,10 +574,26 @@ html {
     white-space: normal;
     text-overflow: initial;
     overflow: visible;
+    margin-bottom: 0.5rem;
   }
   .ranking__section .ranking__item .progress {
-    width: 90%;
-    margin: 0.5rem auto;
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 18px;
+    min-height: 18px;
+    border-radius: 10px;
+    background-color: #cccccc;
+    overflow: hidden;
+    display: block;
+    position: relative;
+  }
+  .ranking__section .ranking__item .progress-bar {
+    background-color: #198754;
+    transition: width 0.6s ease;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .ranking__section .ranking__item .vote-btn {
     margin: 0.8rem auto 0 auto;
@@ -583,6 +615,14 @@ html {
   .ranking__section .ranking__item .progress {
     width: 100%;
   }
+  .ranking__section .ranking__item .progress-bar {
+    background-color: #198754;
+    transition: width 0.6s ease;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
 }
 @media (min-width: 993px) {
   .ranking__section {
@@ -597,6 +637,14 @@ html {
   }
   .ranking__section .ranking__item .progress {
     width: 100%;
+  }
+  .ranking__section .ranking__item .progress-bar {
+    background-color: #198754;
+    transition: width 0.6s ease;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff;
   }
 }
 
