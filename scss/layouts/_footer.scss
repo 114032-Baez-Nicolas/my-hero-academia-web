@@ -22,21 +22,17 @@
         flex-wrap: wrap;
 
         @include mobile {
-            .footer_redes {
-                flex-direction: row;
-                align-items: center;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
+            flex-direction: row;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         @include tablet {
-            .footer_redes {
-                flex-direction: row;
-                align-items: center;
-                padding-left: 20px;
-                padding-right: 20px;
-            }
+            flex-direction: row;
+            align-items: center;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         a {
