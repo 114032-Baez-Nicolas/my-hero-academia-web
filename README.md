@@ -12,7 +12,6 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - **Animate.css** para animaciones suaves al cargar contenido
 - **SweetAlert2** para futuros mensajes y alertas interactivas
 - **Favicon** incluido en la pestaña del navegador
-- **JavaScript** — funcionalidades dinámicas (ranking interactivo)
 - Estructura basada en BEM y buenas prácticas de organización de carpetas
 - Diseño centrado en la experiencia del usuario y la accesibilidad
 
@@ -25,7 +24,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Dones** con GIFs ilustrativos para cada quirk.
 - ✅ Página de **Openings** con carrusel y links a YouTube.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
-- ✅ Página de **Ranking** interactiva con votación, progress bars dinámicas y diseño responsive.
+- 🚧 Página de **Ranking** *(en desarrollo)*.
 - 🚧 Página de **Contacto** *(en desarrollo)*, incluirá formulario para enviar mensajes.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
@@ -53,10 +52,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - Línea del tiempo dual (serie y películas).
 - Cronología visual fácil de explorar.
 
-### 🏆 **Ranking** ⭐
-- Interactivo con progress bars dinámicas.
-- Votación por personaje con SweetAlert2.
-- Barra de progreso adaptada para todos los tamaños de pantalla.
+### ✉️ **Ranking** *(working in progress 🚧)*
 
 ### ✉️ **Contacto** *(working in progress 🚧)*
 - Sección en desarrollo con formulario de contacto y validación.
