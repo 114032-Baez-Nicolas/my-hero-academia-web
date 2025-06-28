@@ -70,23 +70,23 @@ document.addEventListener("DOMContentLoaded", () => {
     const section = document.createElement("section");
     section.className = "ranking__section";
 
-    const list = document.createElement("div");
-    list.className = "ranking__list";
+    const list = document.querySelector("#ranking-list");
 
     personajes.forEach((personaje) => {
         const card = document.createElement("div");
         card.className = "ranking__card animate__animated animate__fadeInUp";
 
         card.innerHTML = `
-       <span class="roles ${personaje.rol}">${personaje.rol === "heroe" ? "Héroe" : "Villano"}</span></h3>
-       <h3>${personaje.nombre}</h3>
-      <p class="ranking__desc">${personaje.descripcion}</p>
-      <div class="power__bar">
-        <div class="power__bar-inner" style="width: ${personaje.poder}%;">${personaje.poder}/100</div>
-      </div>
-      <img src="${personaje.gif}" alt="${personaje.nombre} Power" class="ranking__gif" />
-    `;
-
+            <img src="${personaje.gif}" alt="${personaje.nombre} Power" class="ranking__gif" />
+            <div class="ranking__body">
+            <span class="roles ${personaje.rol}">${personaje.rol === "heroe" ? "Héroe" : "Villano"}</span>
+            <h3>${personaje.nombre}</h3>
+            <p class="ranking__desc">${personaje.descripcion}</p>
+            <div class="power__bar">
+            <div class="power__bar-inner" style="width: ${personaje.poder}%;">${personaje.poder}/100</div>
+            </div>
+            </div>
+            `;
         list.appendChild(card);
     });
 
