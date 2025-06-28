@@ -150,15 +150,21 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 1.5rem;
 }
 @media (max-width: 576px) {
   .layout__footer {
     font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media (min-width: 577px) and (max-width: 769px) {
   .layout__footer {
     font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .layout__footer .footer__redes {
@@ -489,7 +495,7 @@ html {
 .ranking__section {
   width: 100%;
   max-width: 1200px;
-  padding: 2rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;

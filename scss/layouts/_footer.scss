@@ -5,12 +5,19 @@
     color: $gris-medio;
     @include flex-columm-center;
 
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 1.5rem;
+
     @include mobile {
         font-size: 0.8rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     @include tablet {
         font-size: 0.9rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .footer__redes {
