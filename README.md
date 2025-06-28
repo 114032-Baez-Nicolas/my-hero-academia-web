@@ -24,8 +24,9 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Personajes** con información detallada de héroes y villanos.
 - ✅ Página de **Dones** con GIFs ilustrativos para cada quirk.
 - ✅ Página de **Openings** con carrusel y links a YouTube.
-- ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
 - ✅ **Ranking** — Comparativa de poder dinámica.
+- ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
+- ✅ Página de **Nosotros** — Aclaración legal y origen del proyecto.
 - 🚧 Página de **Contacto** *(en desarrollo)*, incluirá formulario para enviar mensajes.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
@@ -61,6 +62,12 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 ### 🗓️ **Sucesos**
 - Línea del tiempo dual (serie y películas).
 - Cronología visual fácil de explorar.
+
+### 👥 **Nosotros**
+- Sección informativa que explica el objetivo del sitio.
+- Se aclara que es un proyecto hecho por un fan sin fines de lucro.
+- Se detalla que **no es oficial ni está afiliado** a los creadores de *My Hero Academia*.
+- Incluye datos del desarrollador.
 
 ### ✉️ **Contacto** *(working in progress 🚧)*
 - Sección en desarrollo con formulario de contacto y validación.
