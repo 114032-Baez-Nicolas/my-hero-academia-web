@@ -1,5 +1,9 @@
 # My Hero Academia — Web Interactiva
+**Autor:** Nicolás Báez
 
+![Banner](./screenshots/portada.jpg)
+
+## 📌 Descripción
 ¡Bienvenido a mi proyecto web inspirado en el universo de **My Hero Academia**!  
 En esta app podés explorar héroes, villanos y sus dones, con tarjetas interactivas, animaciones y diseño responsivo.
 
