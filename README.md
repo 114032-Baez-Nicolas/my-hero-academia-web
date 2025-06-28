@@ -8,6 +8,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 ## 🚀 Tecnologías utilizadas
 
 - **HTML** y **SCSS** (estructura modular dividida por `components`, `layouts`, y `utils`)
+- **JavaScript Vanilla** para manipulación dinámica del DOM en ranking.html
 - **Bootstrap 5** para diseño responsivo
 - **Animate.css** para animaciones suaves al cargar contenido
 - **SweetAlert2** para futuros mensajes y alertas interactivas
@@ -24,7 +25,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Dones** con GIFs ilustrativos para cada quirk.
 - ✅ Página de **Openings** con carrusel y links a YouTube.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
-- 🚧 Página de **Ranking** *(en desarrollo)*.
+- ✅ **Ranking** — Comparativa de poder dinámica.
 - 🚧 Página de **Contacto** *(en desarrollo)*, incluirá formulario para enviar mensajes.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
@@ -48,11 +49,18 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - Carrusel visual con links a YouTube.
 - Experiencia audiovisual para fans.
 
+### 📈 Ranking de Poder ✅
+- **Sección dinámica generada con JavaScript**
+- Cards con diseño tipo "ficha" para cada personaje
+- Incluye:
+  - Imagen GIF animada
+  - Nombre, rol (héroe o villano)
+  - Descripción del personaje
+  - Barra de poder (visual + valor numérico)
+
 ### 🗓️ **Sucesos**
 - Línea del tiempo dual (serie y películas).
 - Cronología visual fácil de explorar.
-
-### ✉️ **Ranking** *(working in progress 🚧)*
 
 ### ✉️ **Contacto** *(working in progress 🚧)*
 - Sección en desarrollo con formulario de contacto y validación.
