@@ -1,7 +1,7 @@
 # My Hero Academia — Web Interactiva
 **Autor:** Nicolás Báez
 
-![Banner](./screenshots/portada.jpg)
+![Banner](./screenshots/banner.jpg)
 
 ## 📌 Descripción
 ¡Bienvenido a mi proyecto web inspirado en el universo de **My Hero Academia**!  
