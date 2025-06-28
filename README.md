@@ -9,6 +9,13 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ---
 
+## 🎥 Vista previa en video
+
+📺 Podés ver una demostración del proyecto en este video de YouTube:  
+🔗 [No Disponible]
+
+---
+
 ## 🚀 Tecnologías utilizadas
 
 - **HTML** y **SCSS** (estructura modular dividida por `components`, `layouts`, y `utils`)
