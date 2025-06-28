@@ -26,7 +26,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Openings** con carrusel y links a YouTube.
 - ✅ **Ranking** — Comparativa de poder dinámica.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
-- ✅ Página de **Nosotros** — Aclaración legal y origen del proyecto.
+- ✅ Página de **Nosotros** con Aclaración legal y origen del proyecto.
 - 🚧 Página de **Contacto** *(en desarrollo)*, incluirá formulario para enviar mensajes.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
