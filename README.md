@@ -90,9 +90,18 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ### 🛠️ Mejoras en desarrollo
 
-- 🔄 Optimización progresiva del **SEO**: títulos dinámicos, metadescripciones, etiquetas `<meta>` y `<og>` por página.
-- 🚀 Implementación de **Vercel** para despliegue del sitio online.
-- ⚙️ Refactorización y mejoras generales en código SCSS para reducir redundancia y mejorar rendimiento móvil.
+- 🔄 Optimización progresiva del **SEO**  
+  Títulos dinámicos y optimizados por página, metadescripciones claras, etiquetas `<meta>` y `<og>` personalizadas para cada sección del sitio.
+- 🔧 Mejoras en la **navegación** y experiencia responsive  
+  Se continúa trabajando en la jerarquía de encabezados, accesibilidad, interacciones móviles y navegación entre secciones.
+- ⚙️ Refactorización de código SCSS  
+  Limpieza y optimización de estilos, reducción de redundancia y modularización para un mantenimiento más sencillo y eficaz.
+
+---
+
+## 🚀 **Sitio desplegado en Vercel**  
+👉 Accedé a la versión en línea desde:  
+🌐 [https://plusultra-web.vercel.app](https://plusultra-web.vercel.app)
 
 ---
 
