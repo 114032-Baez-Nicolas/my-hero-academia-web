@@ -10,6 +10,7 @@
     font-family: $fuente-principal;
     background-color: $bg-azul-oscuro-UA;
     color: $gris-claro;
+    overflow-x: hidden;
 
     @include mobile {
         grid-template-columns: 1fr;

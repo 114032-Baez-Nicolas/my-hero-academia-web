@@ -75,3 +75,8 @@
         }
     }
 }
+
+.contacto__card {
+    @include transicion-hover-gif;
+    background-color: white;
+}

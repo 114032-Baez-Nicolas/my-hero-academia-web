@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .bg-azul-primario {
   background-color: #396390;
 }
@@ -77,6 +78,7 @@ html {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #1d3557;
   color: #e5e5e5;
+  overflow-x: hidden;
 }
 @media (max-width: 576px) {
   .layout {
@@ -353,6 +355,15 @@ html {
   }
 }
 
+.contacto__card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
+}
+.contacto__card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(241, 250, 238, 0.2);
+}
+
 .don__card {
   display: flex;
   flex-wrap: wrap;
@@ -582,6 +593,68 @@ html {
   justify-content: center;
   align-items: center;
   transition: width 0.5s ease;
+}
+
+.btn-flotante {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 999;
+  background-color: #ffc107;
+  color: #333333;
+  padding: 14px 28px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 1.05rem;
+  max-width: 90vw;
+  white-space: nowrap;
+  box-shadow: 0 6px 14px 0 6px 16px rgba(111, 255, 190, 0.25);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.3px;
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.btn-flotante:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  background-color: rgb(221.2, 165.9, 0);
+}
+.btn-flotante:active {
+  transform: scale(0.98);
+}
+.btn-flotante::before {
+  content: "💬";
+  margin-right: 8px;
+}
+@media (max-width: 576px) {
+  .btn-flotante {
+    font-size: 0.78rem;
+    padding: 11px 16px;
+    bottom: 18px;
+    right: 10px;
+    border-radius: 28px;
+    max-width: 88vw;
+  }
+}
+@media (min-width: 577px) and (max-width: 769px) {
+  .btn-flotante {
+    font-size: 0.92rem;
+    padding: 13px 20px;
+    bottom: 22px;
+    right: 16px;
+    border-radius: 32px;
+    max-width: 88vw;
+  }
+}
+@media (min-width: 770px) and (max-width: 992px) {
+  .btn-flotante {
+    font-size: 0.96rem;
+    padding: 14px 24px;
+    bottom: 24px;
+    right: 20px;
+    border-radius: 34px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
