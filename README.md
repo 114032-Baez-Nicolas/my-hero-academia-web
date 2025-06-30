@@ -38,7 +38,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ **Ranking** — Comparativa de poder dinámica.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
 - ✅ Página de **Nosotros** con Aclaración legal y origen del proyecto.
-- 🚧 Página de **Contacto** *(en desarrollo)*, incluirá formulario para enviar mensajes.
+- ✅ Página de **Contacto** con formulario simulado de sugerencias, errores o fanarts.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
 ---
@@ -80,8 +80,19 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - Se detalla que **no es oficial ni está afiliado** a los creadores de *My Hero Academia*.
 - Incluye datos del desarrollador.
 
-### ✉️ **Contacto** *(working in progress 🚧)*
-- Sección en desarrollo con formulario de contacto y validación.
+### ✉️ **Contacto**
+- Página con formulario funcional simulado (sin backend).
+- Campos: nombre, email, motivo y mensaje.
+- Validación de campos y feedback visual con SweetAlert2.
+- Se accede mediante un **botón flotante** visible en toda la app.
+
+---
+
+### 🛠️ Mejoras en desarrollo
+
+- 🔄 Optimización progresiva del **SEO**: títulos dinámicos, metadescripciones, etiquetas `<meta>` y `<og>` por página.
+- 🚀 Implementación de **Vercel** para despliegue del sitio online.
+- ⚙️ Refactorización y mejoras generales en código SCSS para reducir redundancia y mejorar rendimiento móvil.
 
 ---
 
