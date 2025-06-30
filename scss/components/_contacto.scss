@@ -1,0 +1,51 @@
+.btn-flotante {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    background-color: $amarillo-alerta;
+    color: $gris-oscuro;
+    padding: 14px 28px;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 1.05rem;
+    max-width: 90vw;
+    white-space: nowrap;
+    box-shadow: 0 6px 14px $sombra-deku;
+    text-decoration: none;
+    font-family: $fuente-principal;
+    letter-spacing: 0.3px;
+    @include transicion-suave;
+    @include hover-btn-pill;
+
+    &::before {
+        content: "💬";
+        margin-right: 8px;
+    }
+
+    @include mobile {
+        font-size: 0.78rem;
+        padding: 11px 16px;
+        bottom: 18px;
+        right: 10px;
+        border-radius: 28px;
+        max-width: 88vw;
+    }
+
+    @include tablet {
+        font-size: 0.92rem;
+        padding: 13px 20px;
+        bottom: 22px;
+        right: 16px;
+        border-radius: 32px;
+        max-width: 88vw;
+    }
+
+    @include desktop-md {
+        font-size: 0.96rem;
+        padding: 14px 24px;
+        bottom: 24px;
+        right: 20px;
+        border-radius: 34px;
+    }
+}
