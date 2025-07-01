@@ -98,10 +98,6 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ### 🛠️ Mejoras en desarrollo
 
-- 🔧 **Navegación responsiva optimizada**
-  - Mejora en accesibilidad móvil
-  - Jerarquía de encabezados clara y escalable
-
 - ⚙️ **SCSS modular y mantenible**
   - Separación clara por secciones y elementos reutilizables
   - Uso de mixins, variables y media querie
