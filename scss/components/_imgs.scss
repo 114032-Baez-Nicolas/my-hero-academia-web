@@ -1,3 +1,76 @@
+.sucesos__timeline {
+    padding-inline: 1rem;
+
+    .sucesos__item {
+        .sucesos__image {
+            width: 100%;
+            max-width: 350px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 0 auto;
+            box-shadow: $sombra-suave;
+            @include transicion-hover-gif;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 10px;
+                display: block;
+                transition: transform 0.3s ease;
+            }
+
+            &:hover img {
+                transform: scale(1.02);
+            }
+        }
+
+        h3 {
+            color: white;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+            text-align: center;
+        }
+
+        @include mobile {
+            .sucesos__image {
+                max-width: 250px;
+                height: 170px;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+        }
+
+        @include tablet {
+            .sucesos__image {
+                max-width: 250px;
+                height: 225px;
+            }
+        }
+
+        @include desktop-md {
+            .sucesos__image {
+                max-width: 250px;
+                height: 190px;
+            }
+        }
+    }
+}
+
+// -------------------- Imagenes de sucesos --------------------
+
 .img__sucessos {
     width: 100%;
     max-width: 350px;
@@ -24,6 +97,8 @@
         height: 190px;
     }
 }
+
+// -------------------- Alineación de timeline --------------------
 
 .timeline .border-start {
     min-height: 350px;
