@@ -1,0 +1,46 @@
+.soundtrack__timeline {
+    padding-inline: 1rem;
+
+    .soundtrack__item {
+        .soundtrack__video {
+            width: 100%;
+            max-width: 600px;
+            aspect-ratio: 16 / 9;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: $sombra-suave;
+
+            iframe {
+                width: 100%;
+                height: 100%;
+                border: none;
+                border-radius: 10px;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        h3 {
+            color: $bg-azul-oscuro-UA;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: $gris-oscuro;
+        }
+
+        @include mobile {
+            .soundtrack__video {
+                max-width: 100%;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+        }
+    }
+}
