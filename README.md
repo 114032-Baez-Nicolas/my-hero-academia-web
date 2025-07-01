@@ -36,10 +36,10 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ Página de **Personajes** con información detallada de héroes y villanos.
 - ✅ Página de **Dones** con GIFs ilustrativos para cada quirk.
 - ✅ Página de **Openings** con carrusel y links a YouTube.
-- ✅ **Ranking** — Comparativa de poder dinámica.
+- ✅ Página de **Ranking** con comparativa de poder dinámica.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
+- ✅ Página de **Soundtracks** con top musical (imágenes + links a YouTube).
 - ✅ Página de **Nosotros** con Aclaración legal y origen del proyecto.
-- ✅ Página de **Soundtracks** con top musical (imágenes + links a YouTube)
 - ✅ Página de **Contacto** con formulario simulado de sugerencias, errores o fanarts.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
