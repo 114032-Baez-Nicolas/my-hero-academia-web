@@ -4,7 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MHA — Sucesos</title>
+    <title>My Hero Academia | Contacto, Fanarts y Sugerencias</title>
+
+    <!-- SEO Básico -->
+    <meta name="description"
+        content="Escribinos para sugerencias, errores o enviar fanarts. Formulario de contacto del sitio fan de My Hero Academia creado por Nicolás Báez.">
+    <meta name="keywords"
+        content="My Hero Academia, contacto, sugerencias, fanart, formulario, reporte de error, sitio fan, MHA, enviar mensaje">
+    <meta name="author" content="Nicolás Báez">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="es">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="My Hero Academia | Contacto, Fanarts y Sugerencias" />
+    <meta property="og:description"
+        content="Envíanos tu mensaje, fanart o sugerencia desde este formulario interactivo. Proyecto web fan sin fines de lucro." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://plusultra-web.vercel.app/pages/contacto.html" />
+    <meta property="og:image" content="https://plusultra-web.vercel.app/assets/banners/banner1.jpg" />
+    <meta property="og:locale" content="es_AR" />
+
+    <!-- Estilo CSS -->
     <link rel="stylesheet" href="../css/style.css">
 
     <!-- Bootstrap CSS -->
@@ -23,20 +43,30 @@
     <header class="layout__header">
         <nav class="navbar navbar-expand-lg shadow px-3 rounded sticky-top">
             <div class="container-fluid">
-                <img src="../assets/logo/logomha3.png" alt="Logo Web" class="navbar__logo">
+                <img src="../assets/logo/logomha3.png" alt="Logo Web" class="navbar__logo"
+                    title="Logo My Hero Academia">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/personajes.html">Personajes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/dones.html">Dones</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/openings.html">Openings</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/ranking.html">Ranking</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/sucesos.html">Sucesos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html" title="Ir a Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/personajes.html"
+                                title="Ir a Personajes">Personajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/dones.html" title="Ir a Dones">Dones</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/openings.html"
+                                title="Ir a Openings">Openings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/ranking.html"
+                                title="Ir a Ranking">Ranking</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/sucesos.html"
+                                title="Ir a Sucesos">Sucesos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/soundtracks.html"
+                                title="Ir a Soundtracks">Soundtracks</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html"
+                                title="Ir a Nosotros">Nosotros</a></li>
                     </ul>
                 </div>
             </div>
@@ -47,10 +77,10 @@
     <main class="layout__main animate__animated animate__zoomIn">
         <section class="container">
             <h1 class="text-center text-azul-primario">¡Dejanos tu mensaje!</h1>
-            <p class="text-center mb-4">Este formulario es solo una simulación sin envío real. Solo para fines
-                educativos.</p>
+            <h2 class="text-center fs-4 text-white">Formulario de contacto para fans de MHA</h2>
 
-            <div class="card shadow mx-auto p-3 bg-body rounded contacto__card" style="max-width: 600px;">
+            <div class="card shadow mx-auto p-3 bg-body rounded contacto__card mt-3" style="max-width: 600px;">
+                <!-- <h2 class="text-center fs-4 text-secondary">Formulario de contacto</h2> -->
                 <div class="card-body">
                     <form id="formContacto">
                         <div class="mb-3">
