@@ -25,7 +25,8 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - **SweetAlert2** para futuros mensajes y alertas interactivas
 - **Favicon** incluido en la pestaña del navegador
 - Estructura basada en BEM y buenas prácticas de organización de carpetas
-- Diseño centrado en la experiencia del usuario y la accesibilidad
+- Diseño centrado en la **experiencia del usuario y accesibilidad**
+- SEO con etiquetas `<meta>` y Open Graph en cada sección
 
 ---
 
@@ -38,6 +39,7 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - ✅ **Ranking** — Comparativa de poder dinámica.
 - ✅ Página de **Sucesos** con **línea del tiempo dual** (serie y películas).
 - ✅ Página de **Nosotros** con Aclaración legal y origen del proyecto.
+- ✅ Página de **Soundtracks** con top musical (imágenes + links a YouTube)
 - ✅ Página de **Contacto** con formulario simulado de sugerencias, errores o fanarts.
 - 🔧 Mejoras continuas en navegación, accesibilidad y experiencia responsive.
 
@@ -74,6 +76,12 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 - Línea del tiempo dual (serie y películas).
 - Cronología visual fácil de explorar.
 
+### 🎶 Soundtracks (NUEVA)
+- **Top musical** con los temas más icónicos de la serie
+- Diseño en forma de timeline dual
+- Cards con imágenes uniformes y enlaces a YouTube
+- Mejora visual para fans de la música de MHA
+
 ### 👥 **Nosotros**
 - Sección informativa que explica el objetivo del sitio.
 - Se aclara que es un proyecto hecho por un fan sin fines de lucro.
@@ -90,12 +98,13 @@ En esta app podés explorar héroes, villanos y sus dones, con tarjetas interact
 
 ### 🛠️ Mejoras en desarrollo
 
-- 🔄 Optimización progresiva del **SEO**  
-  Títulos dinámicos y optimizados por página, metadescripciones claras, etiquetas `<meta>` y `<og>` personalizadas para cada sección del sitio.
-- 🔧 Mejoras en la **navegación** y experiencia responsive  
-  Se continúa trabajando en la jerarquía de encabezados, accesibilidad, interacciones móviles y navegación entre secciones.
-- ⚙️ Refactorización de código SCSS  
-  Limpieza y optimización de estilos, reducción de redundancia y modularización para un mantenimiento más sencillo y eficaz.
+- 🔧 **Navegación responsiva optimizada**
+  - Mejora en accesibilidad móvil
+  - Jerarquía de encabezados clara y escalable
+
+- ⚙️ **SCSS modular y mantenible**
+  - Separación clara por secciones y elementos reutilizables
+  - Uso de mixins, variables y media querie
 
 ---
 
